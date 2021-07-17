@@ -163,7 +163,7 @@ const Contact = () => {
                                             </Mailto>
                                         </ContactEmailWrapper>
                                         <ContactIconWrapper>
-                                            <ContactIconBorder href="https://www.linkedin.com/in/justin-davis/" target="_blank">
+                                            <ContactIconBorder href="https://www.linkedin.com/in/justin-davis-514827195/" target="_blank">
                                                 <ContactIcon src={require('../images/linkedin.svg').default}/>
                                             </ContactIconBorder>
                                             <ContactIconBorder href="https://www.github.com/jdanthdavis" target="_blank">
