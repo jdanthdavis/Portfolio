@@ -13,7 +13,7 @@ const Navbar = () => {
             <Nav>
                 <NavContainer>
                     <NavLogo>
-                        JDAnth
+                        JDAnth.
                     </NavLogo>
                     <NavMenu>
                         <StyledLink>

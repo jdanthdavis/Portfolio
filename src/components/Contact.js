@@ -164,10 +164,10 @@ const Contact = () => {
                                         </ContactEmailWrapper>
                                         <ContactIconWrapper>
                                             <ContactIconBorder href="https://www.linkedin.com/in/justin-davis/" target="_blank">
-                                                
+                                                <ContactIcon src={require('../images/linkedin.svg').default}/>
                                             </ContactIconBorder>
                                             <ContactIconBorder href="https://www.github.com/jdanthdavis" target="_blank">
-                                                
+                                                <ContactIcon src={require('../images/github.png').default}/> 
                                             </ContactIconBorder>
                                         </ContactIconWrapper>
                                         <ContactImageWrapper>
