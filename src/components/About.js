@@ -25,15 +25,12 @@ const About = () => {
                         <BlueText>Who&nbsp;</BlueText>I am
                     </SectionHeading>
                     <AboutParagraphWrapper>
-                        {/* <AboutImageWrapper>
-                            <AboutImage src={require('../images/coding.svg').default}/>
-                        </AboutImageWrapper> */}
                         <AboutParagraphText>
-                            TextTextTextTextTextText
-                            TextTextTextTextTextText
-                            TextTextTextTextTextText
-                            TextTextTextTextTextText
-                            TextTextTextTextTextText
+                            Hello! Welcome to my site. My name is Justin Davis and
+                            I am a full stack developer. My favorite Technologies
+                            to use are React and Node.js. I have created this online
+                            portfolio along with project summaries for review. I enoucrage
+                            your questions and comments and would welcome an opportunity to connect with you.
                         </AboutParagraphText>
                     </AboutParagraphWrapper>
                     <SectionHeading>
