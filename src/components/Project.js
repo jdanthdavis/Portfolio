@@ -20,8 +20,7 @@ import {
     project1,
     project2,
     project3,
-    project4,
-    project5
+    project4
 } from '../data/projectData'
 
 const elementStyle = {
@@ -121,24 +120,6 @@ const Projects = () => {
                             </ProjectCardDetailWrap>
                         ))}
                     </ProjectCardEnd>
-                    <ProjectCardStart>
-                        {project5.map((project, index) => (
-                            <ProjectCardDetailWrap>
-                                <ProjectCardTitle key={index.title5}>{project.name}</ProjectCardTitle>
-                                <ProjectDescription key={index.description3}>{project.description}</ProjectDescription>
-                                {project.technology.map((technology) => (
-                                    <TechWrapper>
-                                        <ProjectCardTech key={index.technology5}>{technology}</ProjectCardTech>
-                                    </TechWrapper>
-                                ))}
-                                <LinkWrapper>
-                                    <RepoLink key={index.repo5} href={project.repo} target='_blank' style={{paddingLeft: "55px"}}>
-                                        <RepoIcon />
-                                    </RepoLink>
-                                </LinkWrapper>
-                            </ProjectCardDetailWrap>
-                        ))}
-                    </ProjectCardStart>
                 </Element>
             </ProjectsWrapper>
         </>
