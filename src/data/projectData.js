@@ -8,7 +8,7 @@ export const project1 = [{
 
 export const project2 = [{
     name: 'LIS4368 -  Adv. Web Applications Development',
-    description: 'In this course I developed web applications with an emphasis on server-side conepts, tools, and methods.'
+    description: 'In this course I developed web applications with an emphasis on server-side concepts, tools, and methods.'
                 + 'We also covered basic web application programming, advanced OOP, and web application development.',
     technology: ['JavaScript', 'MySQL', 'Bootstrap'],
     repo: 'https://github.com/jdanthdavis/lis4368',
