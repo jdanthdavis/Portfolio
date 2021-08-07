@@ -3,8 +3,10 @@ import {
     NavMenu,
     NavLogo,
     NavContainer,
-    StyledLink
+    StyledLink,
+    ResumeLink
 } from './Navbar.elements'
+import resume from '../data/davisJustinResume.pdf'
 import { Link } from 'react-scroll'
 
 const Navbar = () => {
@@ -28,6 +30,7 @@ const Navbar = () => {
                                     About
                                 </Link>
                         </StyledLink>
+
                         <StyledLink>
                         <Link
                             activeClass="active"
@@ -40,6 +43,17 @@ const Navbar = () => {
                                 Projects
                             </Link>
                         </StyledLink>
+
+                        <StyledLink>
+                            <ResumeLink
+                                href={resume}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                    Resume
+                            </ResumeLink>
+                        </StyledLink>
+
                         <StyledLink>
                         <Link
                             activeClass="active"
@@ -55,7 +69,7 @@ const Navbar = () => {
                     </NavMenu>
                 </NavContainer>
             </Nav>
-            </>
+        </>
     )
 }
 
