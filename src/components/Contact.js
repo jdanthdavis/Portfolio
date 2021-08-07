@@ -21,6 +21,7 @@ import {
     ContactImage
 } from './Contact.elements'
 import Mailto from '../components/Mailto'
+import resume from '../data/davisJustinResume.pdf'
 import { Element } from 'react-scroll'
 import { Formik, Form, useField } from 'formik'
 import * as Yup from 'yup'
@@ -163,11 +164,14 @@ const Contact = () => {
                                             </Mailto>
                                         </ContactEmailWrapper>
                                         <ContactIconWrapper>
-                                            <ContactIconBorder href="https://www.linkedin.com/in/justin-davis-514827195/" target="_blank">
+                                            <ContactIconBorder href="https://www.linkedin.com/in/justin-davis-514827195/" target="_blank" rel="noopener noreferrer">
                                                 <ContactIcon src={require('../images/linkedin.svg').default}/>
                                             </ContactIconBorder>
-                                            <ContactIconBorder href="https://www.github.com/jdanthdavis" target="_blank">
+                                            <ContactIconBorder href="https://www.github.com/jdanthdavis" target="_blank" rel="noopener noreferrer">
                                                 <ContactIcon src={require('../images/github.png').default}/> 
+                                            </ContactIconBorder>
+                                            <ContactIconBorder href={resume} target="_blank" rel="noopener noreferrer">
+                                                <ContactIcon src={require('../images/resume.jpg').default}/> 
                                             </ContactIconBorder>
                                         </ContactIconWrapper>
                                         <ContactImageWrapper>
