@@ -1,6 +1,6 @@
 export const project1 = [{
     name: 'Weather App',
-    description: 'An application built with TypeScript that utilizes the OpenWeather API to fetch the'
+    description: 'An application built with TypeScript that utilizes the OpenWeather API to fetch the '
                 + 'current weather and the forecast for any user entered location.',
     technology: ['TypeScript', 'Styled Components', 'useState'],
     repo: 'https://github.com/jdanthdavis/Weather-App',
