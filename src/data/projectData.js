@@ -4,7 +4,7 @@ export const project1 = [{
                 + 'current weather and the forecast for any user entered location.',
     technology: ['TypeScript', 'Styled Components', 'useState'],
     repo: 'https://github.com/jdanthdavis/Weather-App',
-    demo: 'https://jdanth-weatherapp.netlify.app'
+    demo: 'https://jdanthweatherapp.netlify.app'
 }]
 
 export const project2 = [{
