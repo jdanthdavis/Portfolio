@@ -51,9 +51,9 @@ const Projects = () => {
                                     <DemoLink key={index.demo1} href={project.demo} target='_blank'>
                                         <DemoIcon />
                                     </DemoLink>
-                                    <RepoLink key={index.repo1} href={project.repo} target='_blank'>
+                                    {/* <RepoLink key={index.repo1} href={project.repo} target='_blank'>
                                         <RepoIcon />
-                                    </RepoLink>
+                                    </RepoLink> */}
                                 </LinkWrapper>
                             </ProjectCardDetailWrap>
                         ))}
